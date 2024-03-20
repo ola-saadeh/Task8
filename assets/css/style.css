@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body{
+ 
+    font-family:  'Montserrat',sans-serif;
+  
+}
+.profile {
+    width: 300px;
+    height: 410px;
+    position: absolute;
+    margin: 70px;
+    border: 1px #cddce2 solid;
+    border-radius: 8px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.check-icon{
+    color: #529cd5;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+}
+
+.address {
+    margin: 20px;
+    color: gray;
+
+}
+ 
+
+.pic {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    border-radius: 50%; 
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  
+  position: absolute;
+  bottom: 178px;
+  font-size: 22px;
+  color: gray;
+}
+
+.discription {
+  position: absolute;
+  font-size: 13px;
+  color: gray;
+  bottom: 155px;
+}
+
+.button {
+    background-color: #529cd5;
+    position: absolute;
+    bottom: 80px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 25px;
+}
+
+.button:hover{
+    background-color: #2876be;
+}
+ 
+
+ 
+footer {
+  width: 100%;
+  color: #b28d9f;
+  position: absolute;
+  bottom: 0px;
+  background-color: #24405d;
+  border-radius: 5px;
+  display: flex;
+  justify-content:space-between;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  
+}
+
+.icons {
+    font-size: 22px;
+}
+
+.numbers{
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+ 
+ 
